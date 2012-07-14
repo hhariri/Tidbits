@@ -7,3 +7,9 @@ A place to put different things
 - resharper.jar : Keymapping for IDEA platforms based of of VS ReSharper keymappings
 - sobkotlin.jar : Color scheme based off of Son of Obsidian for VS with support for Kotlin
 
+
+## Credits
+
+Son of Obsidian Kotlin support is based off of the work of Roger located at 
+http://www.aremaitchconsulting.com/2011/02/color-schemes-for-intellij-idea/
+I added support for Kotlin and created a settings file for it.
