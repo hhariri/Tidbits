@@ -51,7 +51,7 @@ namespace TrickyCSharp.Orcs
       float c = 1;
       for (int i = 0; i < numbers.Length; ++i)
         c *= numbers[i];
-      return c;
+      //return c;
     }
   }
 }
