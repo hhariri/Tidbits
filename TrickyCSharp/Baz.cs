@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
+using NUnit.Framework;
 
 namespace TrickyCSharp
 {
@@ -13,13 +14,24 @@ namespace TrickyCSharp
     }
   }
 
-  class DeepContainer<T> : SimpleContainer<DeepContainer<DeepContainer<T>>>
-  {
-    public DeepContainer()
+  /* With this type uncommented, we can't even run the other tests... 
+    class DeepContainer<T> : SimpleContainer<DeepContainer<DeepContainer<T>>>
     {
+      public DeepContainer()
+      {
+      }
     }
-  }
-
+   
+    [TestFixture]
+    public class ContainerTests
+    {
+      [Test]
+      public void Foo()
+      {
+          var x = new DeepContainer<string>();
+      }
+    }
+      */
   public class Person : INotifyPropertyChanged
   {
     private int age;

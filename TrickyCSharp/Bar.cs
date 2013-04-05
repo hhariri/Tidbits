@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using NUnit.Framework;
 
 namespace TrickyCSharp.Orcs
 {
@@ -18,7 +19,7 @@ namespace TrickyCSharp.Orcs
     private string text;
     private int value;
 
-    Bar(int n) : this("Chuck Norris")
+    public Bar(int n) : this("Chuck Norris")
     {
       value = n;
     }
@@ -52,6 +53,16 @@ namespace TrickyCSharp.Orcs
       for (int i = 0; i < numbers.Length; ++i)
         c *= numbers[i];
       //return c;
+    }
+  }
+
+  [TestFixture]
+  public class BarTest
+  {
+    [Test]
+    public void Construction()
+    {
+      new Bar<string>(10);
     }
   }
 }

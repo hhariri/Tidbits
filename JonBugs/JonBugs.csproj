@@ -51,7 +51,7 @@
     <Compile Include="InterestingType.cs" />
     <Compile Include="NotJustResharper.cs" />
     <Compile Include="OddComparison.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="PointlessRef.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnexpectedNullity.cs" />
   </ItemGroup>
