@@ -6,7 +6,7 @@ A place to put different things
 
 - resharper.jar : Keymapping for IDEA platforms based of of VS ReSharper keymappings
 - sobkotlin.jar : Color scheme based off of Son of Obsidian for VS with support for Kotlin
-
+- breaking_csharp: Some code we used in a Webinar with Jon Skeet showing how he can break ReSharper and C#
 
 ## Credits
 
